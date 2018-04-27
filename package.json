@@ -7,7 +7,7 @@
     "build": "webpack -p",
     "build:dev": "webpack -d",
     "dev": "NODE_ENV=development nodemon server.js",
-    "start": "NODE_ENV=server node server.js",
+    "start": "node server.js",
     "test": "NODE_ENV=test jest",
     "test:update": "NODE_ENV=test jest -u"
   },
